@@ -1,108 +1,39 @@
 ## Hi there 👋
 
-Hi, I’m a Web Developer and Automation Engineer specializing in **web scraping, backend automation, and intelligent workflow systems**.  
-I build scalable Python-based platforms that extract, process, and automate data from the web, combining strong backend logic with practical automation design.
+I build **full-stack web applications** with responsive interfaces, reliable backend services, and efficient data flows. My projects combine **React, Next.js, TypeScript, and Python** with API integration, automated testing, and cloud deployment.
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Project Highlights
 
-### 🧱 1. Job Application Automation & Job Scraping Platform
+### Full-Stack Web Applications
 
-**Overview:**  
-A large-scale automation platform that scrapes job listings and automatically applies to jobs across 35+ platforms including **Indeed, Monster, Reed, GoHire, Manatal**, and other HR portals.  
-The system performs form filling, file uploads, captcha solving, and generates AI-powered answers to screening questions all running continuously on the cloud.
+- Developed responsive interfaces using **React, Next.js, and TypeScript**.
+- Built reusable components, shared interaction patterns, and structured state management.
+- Connected frontend workflows to backend APIs with validation, authorization checks, and consistent error responses.
+- Defined API contracts, data models, and application boundaries to support maintainable features.
 
-**Key Highlights:**
+### Authentication & Data Management
 
-- Developed scalable scrapers using **Python**, **Zyte**, and **Playwright** or **Selenium**.
-- Integrated **AI-generated screening question answers** using LLM APIs.
-- Built a **Chrome Extension** for direct user-side job automation.
-- Deployed automation scripts to **AWS Lambda** for 24/7 uptime.
-- Implemented proxy rotation and CAPTCHA solving for anti-bot protection.
+- Implemented authentication, session handling, and **role-based access** for protected functionality.
+- Built validated forms with conditional fields and clear user feedback.
+- Improved database access through **pagination, indexing, and query optimization**.
+- Integrated data-driven screens with loading, empty, success, and error states.
 
-**Tech Stack:**  
-`Python`, `Playwright`, `Zyte`, `AWS Lambda`, `MongoDB`, `CapSolver`, `Docker`, `Chrome Extension`, `LLM`
+### Performance & Accessibility
 
-[Auto Apply Example](https://github.com/Howlmaster/GoHire_AutoApply)
+- Improved responsiveness through **code splitting, caching, efficient data fetching, and rendering optimizations**.
+- Refactored tightly coupled modules into smaller, testable components and services.
+- Built accessible interfaces with semantic markup, keyboard navigation, descriptive labels, and visible focus states.
+- Resolved browser compatibility and responsive layout issues.
 
-[Job Scraper Example](https://github.com/Howlmaster/Job_Scraper)
+### Automated Testing & Deployment
 
----
-
-### 🧱 2. Queensland Transport Slot Monitor (Selenium + Twilio)
-
-**Overview:**  
-A lightweight automation tool that monitors the **Queensland Transport** driving test booking site. It automatically checks for available time slots and sends a **WhatsApp notification** via **Twilio API** when a test slot within 2 weeks is found.
-
-**Key Highlights:**
-
-- Used **Selenium WebDriver** for site monitoring and parsing.
-- Integrated **Twilio API** for real-time WhatsApp notifications.
-- Added Email notifications to client's email via SMTP
-- Designed for **scheduled execution** using scheduler.
-- Included retry logic and exception handling for robust uptime.
-
-**Tech Stack:**  
-`Python`, `Selenium`, `Twilio API`, `BeautifulSoup`, `Scheduler`, `Docker`
-
-[Booking Slots](https://www.service.transport.qld.gov.au/SBSExternal/application/CleanBookingDE.xhtml?dswid=5627)
+- Added **component, API, and integration tests** for critical workflows and failure scenarios.
+- Supported containerized environments and automated build and release pipelines.
+- Investigated production issues and implemented preventive fixes.
+- Documented application behavior and technical decisions to support ongoing development.
 
 ---
 
-### 🧱 3. TLS Connect Booking Automation (Playwright)
-
-**Overview:**  
-An automated system built with **Playwright** to manage and book **TLS Connect (visa appointment)** slots.  
-It can log in, handle reCAPTCHAs, and book available slots intelligently with session management.
-
-**Key Highlights:**
-
-- Automated complete booking workflows including authentication and form submission.
-- Managed **session persistence** for multi-run logins.
-- Built to handle dynamic UI elements and network delays.
-- Implemented error handling and async task orchestration.
-
-**Tech Stack:**  
-`Python`, `Playwright`, `asyncio`, `Proxy Rotation`, `2Captcha`, `Docker`
-
-[Stake.com](https://stake.com/)
-
----
-
-### 🧱 Chrome Extension Automation for Betting Platform (Stake.com)
-
-**Overview:**  
-Developed a **Chrome Extension** that automates key workflows on a major online betting platform.  
-The system handles **real-time betting odds monitoring, automated wager placement, and account management** all while maintaining undetectable browser behavior to avoid anti-bot systems.  
-This project was built as part of a large-scale backend automation framework designed to synchronize user activity across multiple betting accounts and APIs.
-
-**Key Challenges & Solutions:**
-
-- **Anti-bot Evasion:**  
-  Implemented **human-like Playwright interactions** (mouse movement, delay randomization, DOM event simulation) to bypass advanced anti-detection mechanisms and Cloudflare Turnstile.
-- **Session Persistence:**  
-  Built secure session and cookie handling using **Chrome Storage API** and **JWT-based authentication** between the extension and backend server.
-- **Dynamic Odds Scraping:**  
-  Designed a **real-time WebSocket listener** and **DOM mutation observer** for continuous odds updates and instant reaction to betting events.
-- **Concurrency Control:**  
-  Integrated **ThreadPoolExecutor** and **async coroutines** for simultaneous bet processing across multiple user sessions.
-- **Scalable Infrastructure:**  
-  Deployed backend automation on **AWS ECS with Docker**, enabling distributed Chrome instances running in isolated containers.
-
-**Tech Stack:**  
-`Python`, `Playwright`, `JavaScript (Chrome Extension)`, `AWS ECS`, `Docker`, `MongoDB`, `WebSocket`, `Cloudflare Bypass`, `2Captcha API`, `Asyncio`, `JWT Auth`
-
----
-
-## ⚙️ Core Expertise
-
-- **Web Development** — Backend design, REST APIs, and scalable data pipelines.
-- **Web Automation** — Browser-based bots for booking, scraping, and form filling.
-- **Web Scraping** — Large-scale structured data extraction from dynamic websites.
-- **Cloud Deployment** — Containerized automation deployed on AWS & Docker.
-- **AI Integration** — Using LLMs for text generation and intelligent automation.
-
----
-
-⭐ _Focused on building reliable, scalable, and intelligent web automation systems._
+⭐ *Focused on building maintainable web applications with accessible interfaces, reliable services, and dependable releases.*
